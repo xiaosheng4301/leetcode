@@ -1,11 +1,12 @@
 package com.xs;
 
-class Solution {
+@SuppressWarnings("unused")
+class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length < 1) {
             return "";
         }
-        StringBuffer result = new StringBuffer();
+        StringBuilder result = new StringBuilder();
         int index = 0;
         String s;
         char c;
